@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Eightynity | Home</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="header">
+      <div class="navbar_kiri">
+        <h1 class="navbar_logo">Eightynity</h1>
+      </div>
+      <div class="navbar_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+        <a href="#testimoni">Testimoni</a>
+      </div>
+      <div class="navbar_kanan">
+        <a href="/products.html"
+          ><i
+            class="fa-solid fa-basket-shopping fa-lg"
+            style="color: #ffffff"
+          ></i
+        ></a>
+        <i
+          id="dark_icon"
+          class="fa-regular fa-sun fa-lg"
+          style="color: #ffffff"
+        ></i>
+      </div>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+      <div class="home_text">
+        <h1>Eightynity</h1>
+        <p class="home_detail">
+          Eightynity merupakan sebuah brand fashion terbaru yang sangat dicintai
+          banyak orang. Eightynity memiliki design yang simple dan sporty untuk
+          dipakai dalam kegiatan sehari-hari. Sampai saat ini Eightynity telah
+          meluncurkan design-design yang berkualitas serta menggunakan
+          material-material premium.
+        </p>
+        <a href="https://wa.me/">
+          <button type="button" class="home_button">
+            <p>Contact Us</p>
+            <i class="fa-brands fa-whatsapp fa-xl" style="color: #25d366"></i>
+          </button>
+        </a>
+      </div>
+      <div class="home_img"><img src="pictures/homeMockup.png" /></div>
+    </div>
+
+    <!-- Banner -->
+
+    <div class="banner">
+      <div>
+        <h2>12.000</h2>
+        <p>Kostumer</p>
+      </div>
+      <div>
+        <h2>9.000</h2>
+        <p>Pengikut</p>
+      </div>
+      <div>
+        <h2>3</h2>
+        <p>Stores</p>
+      </div>
+      <div>
+        <h2>98%</h2>
+        <p>Kepuasan Pelanggan</p>
+      </div>
+    </div>
+
+    <!-- Testimoni -->
+
+    <div class="testimoni" id="testimoni">
+      <h2>Testimoni</h2>
+      <div class="testimoni_text">
+        <p>
+          " Pada saat melihat-lihat pakaian di e-commerce, saya tertarik untuk
+          membeli beberapa kaos polo dari brand Eightynity ini, setelah dipakai,
+          Eightynity ini sangat nyaman dipakai sehari-hari, cocok untuk kegiatan
+          indoor ataupun outdoor, bahannya sangat lembut dan tidak panas. "
+        </p>
+        <p class="testimoni_nama">- Kevin</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer" id="footer">
+      <div class="footer_kiri">
+        <p>Always giving the best whenever and wherever.</p>
+        <ul>
+          <a href="https://www.facebook.com/"
+            ><i
+              class="fa-brands fa-square-facebook fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i
+              class="fa-brands fa-square-instagram fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://wa.me/"
+            ><i
+              class="fa-brands fa-square-whatsapp fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+        </ul>
+      </div>
+      <div class="footer_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+      </div>
+      <div class="footer_kanan">
+        <div class="footer_alamat">
+          <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+          <p>Blok III Pasar Senen Lt. 3 Senen, Jakarta Pusat 10410</p>
+        </div>
+        <div class="footer_telepon">
+          <i class="fa-solid fa-phone" style="color: #ffffff"></i>
+          <p>+62 21 784 306</p>
+        </div>
+        <div class="footer_email">
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          <p>eightynity@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const body = document.body;
+    const dark_modes = document.getElementById("dark_icon");
+
+    dark_modes.addEventListener("click", () => {
+      body.classList.toggle("dark_mode");
+    });
+  </script>
+</html>

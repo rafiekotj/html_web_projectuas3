@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Eightynity | Products</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="header">
+      <div class="navbar_kiri">
+        <h1 class="navbar_logo">Eightynity</h1>
+      </div>
+      <div class="navbar_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+      </div>
+      <div class="navbar_kanan">
+        <a href="/products.html"
+          ><i
+            class="fa-solid fa-basket-shopping fa-lg"
+            style="color: #ffffff"
+          ></i
+        ></a>
+        <i
+          id="dark_icon"
+          class="fa-regular fa-sun fa-lg"
+          style="color: #ffffff"
+        ></i>
+      </div>
+    </div>
+
+    <!-- Produk -->
+    <div class="produk">
+      <h2>Our Products</h2>
+      <div class="produk_baris1">
+        <div class="produk_box">
+          <img src="pictures/Polo Putih.png" />
+          <div class="produk_detail">
+            <h3>White Polo Shirt</h3>
+            <p>White polo shirt.</p>
+            <p>Rp 70.000,00</p>
+          </div>
+        </div>
+        <div class="produk_box">
+          <img src="pictures/Polo Navy.png" />
+          <div class="produk_detail">
+            <h3>Navy Polo Shirt</h3>
+            <p>Navy polo shirt.</p>
+            <p>Rp 70.000,00</p>
+          </div>
+        </div>
+        <div class="produk_box">
+          <img src="pictures/Kaos Abu Tua.png" />
+          <div class="produk_detail">
+            <h3>Dark Grey Shirt</h3>
+            <p>Dark grey shirt.</p>
+            <p>Rp 60.000,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="produk_baris2">
+        <div class="produk_box">
+          <img src="pictures/Kaos Sand.png" />
+          <div class="produk_detail">
+            <h3>Sand Shirt</h3>
+            <p>Sand shirt.</p>
+            <p>Rp 60.000,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer" id="footer">
+      <div class="footer_kiri">
+        <p>Always giving the best whenever and wherever.</p>
+        <ul>
+          <a href="https://www.facebook.com/"
+            ><i
+              class="fa-brands fa-square-facebook fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i
+              class="fa-brands fa-square-instagram fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://wa.me/"
+            ><i
+              class="fa-brands fa-square-whatsapp fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+        </ul>
+      </div>
+      <div class="footer_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+      </div>
+      <div class="footer_kanan">
+        <div class="footer_alamat">
+          <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+          <p>Blok III Pasar Senen Lt. 3 Senen, Jakarta Pusat 10410</p>
+        </div>
+        <div class="footer_telepon">
+          <i class="fa-solid fa-phone" style="color: #ffffff"></i>
+          <p>+62 21 784 306</p>
+        </div>
+        <div class="footer_email">
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          <p>eightynity@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const body = document.body;
+    const dark_modes = document.getElementById("dark_icon");
+
+    dark_modes.addEventListener("click", () => {
+      body.classList.toggle("dark_mode");
+    });
+  </script>
+</html>

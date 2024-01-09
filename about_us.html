@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Eightynity | About Us</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="header">
+      <div class="navbar_kiri">
+        <h1 class="navbar_logo">Eightynity</h1>
+      </div>
+      <div class="navbar_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+      </div>
+      <div class="navbar_kanan">
+        <a href="/products.html"
+          ><i
+            class="fa-solid fa-basket-shopping fa-lg"
+            style="color: #ffffff"
+          ></i
+        ></a>
+        <i
+          id="dark_icon"
+          class="fa-regular fa-sun fa-lg"
+          style="color: #ffffff"
+        ></i>
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="about">
+      <h2>About Us</h2>
+      <img src="pictures/Kelompok 8.jpg" />
+      <p>
+        Kami adalah sebuah kelompok yang terinspirasi oleh berbagai kreativitas,
+        inovatifitas, serta keindahan estetika dalam setiap perincian
+        produksinya. Didirikan pada 2022, Eightynity telah berkomitmen untuk
+        memberikan pengalaman berbelanja yang lebih dari sekadar transaksi. Kami
+        merupakan kiblat dari cerminan gaya hidup modern.<br /><br />
+        Di Eightynity, kami percaya bahwa pakaian merupakan salah satu bentuk
+        seni yang dapat mengubah cara kita merasakan dan berinteraksi dengan
+        dunia. Setiap koleksi yang kami produksi, kami persembahkan dengan cinta
+        dan perhatian terhadap desain dan kualitas. Kami tidak hanya membuat
+        pakaian tetapi juga menciptakan kisah-kisah yang melekat pada setiap
+        potongan pakaian yang kami hasilkan.
+      </p>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer" id="footer">
+      <div class="footer_kiri">
+        <p>Always giving the best whenever and wherever.</p>
+        <ul>
+          <a href="https://www.facebook.com/"
+            ><i
+              class="fa-brands fa-square-facebook fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i
+              class="fa-brands fa-square-instagram fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="https://wa.me/"
+            ><i
+              class="fa-brands fa-square-whatsapp fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+        </ul>
+      </div>
+      <div class="footer_tengah">
+        <a href="/home.html">Home</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/products.html">Products</a>
+      </div>
+      <div class="footer_kanan">
+        <div class="footer_alamat">
+          <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+          <p>Blok III Pasar Senen Lt. 3 Senen, Jakarta Pusat 10410</p>
+        </div>
+        <div class="footer_telepon">
+          <i class="fa-solid fa-phone" style="color: #ffffff"></i>
+          <p>+62 21 784 306</p>
+        </div>
+        <div class="footer_email">
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          <p>eightynity@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const body = document.body;
+    const dark_modes = document.getElementById("dark_icon");
+
+    dark_modes.addEventListener("click", () => {
+      body.classList.toggle("dark_mode");
+    });
+  </script>
+</html>
