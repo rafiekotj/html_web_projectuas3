@@ -50,6 +50,11 @@ body {
   color: black;
 }
 
+.navbar_tengah ul {
+  list-style: none;
+  display: flex;
+}
+
 .navbar_tengah a {
   margin-right: 32px;
   color: white;
@@ -311,6 +316,8 @@ body {
   .header {
     display: block;
     text-align: center;
+    justify-content: center;
+    padding: 8px 32px 8px 32px;
   }
 
   .navbar_kiri {
@@ -320,10 +327,10 @@ body {
 
   .navbar_tengah {
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
-  .navbar_tengah a:last-child {
+  .navbar_tengah .akhir {
     margin-right: 0;
   }
 
@@ -337,6 +344,7 @@ body {
 
   .home {
     display: block;
+    padding: 72px 56px;
   }
 
   .home_text {
@@ -371,11 +379,21 @@ body {
 
   .banner {
     display: block;
-    padding: 48px 168px;
+    padding: 48px 56px;
   }
 
   .banner h2 {
     margin-top: 32px;
+  }
+
+  /* Testimoni */
+
+  .testimoni {
+    padding: 72px 56px;
+  }
+
+  .testimoni_text {
+    margin: 0;
   }
 
   /* Footer */
@@ -383,6 +401,7 @@ body {
   .footer {
     display: block;
     height: 320px;
+    padding: 32px 56px 32px 56px;
   }
 
   .footer_kiri {
@@ -417,5 +436,11 @@ body {
   .produk_box {
     width: 100%;
     margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 999px) {
+  .navbar_tengah {
+    display: block;
   }
 }
