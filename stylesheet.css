@@ -330,8 +330,8 @@ body {
     margin-bottom: 24px;
   }
 
-  .navbar_tengah .akhir {
-    margin-right: 0;
+  .navbar_tengah ul {
+    justify-content: center;
   }
 
   .navbar_kanan {
@@ -439,8 +439,28 @@ body {
   }
 }
 
-@media (min-width: 999px) {
-  .navbar_tengah {
+@media (max-width: 780px) {
+  .navbar_tengah ul {
     display: block;
+  }
+
+  .navbar_tengah li {
+    margin-bottom: 8px;
+  }
+
+  .navbar_tengah a {
+    margin-right: 0;
+  }
+
+  .home_text h1 {
+    font-size: 40px;
+  }
+
+  .home_detail {
+    text-align: center;
+  }
+
+  .home_img {
+    height: 256px;
   }
 }
